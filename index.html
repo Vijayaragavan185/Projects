@@ -53,8 +53,33 @@
             top: 28px;
             color: gold;
             text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
-
         }
+        .home{
+            display: flex;
+            height: 100vh;
+            color: #fff;
+            min-height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .home .max-width{
+            width: 100%;
+            display: flex;   
+        }
+        .home .home-content .text1{
+            font-size: 20px;
+        }
+        .home .home-content .text2{
+            font-size: 55px;
+            font-weight: 600;
+            margin-left: 40px;
+        }
+        .home .home-content .text3{
+            font-size: 40px;
+            margin: 5px, 0;
+        }
+
     </style>
 </head>
 
@@ -72,9 +97,12 @@
     <!-- Home section-->
     <section class="home" id="home">
         <div class="max-width">
-            <div class="text1">Hello, Iam</div>
-            <div class="text2">Vijayaragavan S</div>
-            <div class="text3">and Iam a</div>
+            <div class="home-content">
+                <div class="text1">Hello, Iam</div>
+                <div class="text2">Vijayaragavan S</div>
+                <div class="text3">and Iam a</div>
+            </div>
         </div>
+    </section>
 </body>
 </DOCTYPE>
